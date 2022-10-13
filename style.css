@@ -1,0 +1,18 @@
+body{
+    padding: 100px;
+}
+.submit-area{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 40px red;
+}
+.welcome-area{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 40px green;
+}
+#welcome{
+    padding-left: 200px;
+}
