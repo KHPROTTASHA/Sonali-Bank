@@ -11,10 +11,10 @@
 <body>
     <main>
         <section>
-            <div class="login">
+            <div id="login-area">
                 <div class="welcome-area">
-                <h4 id="welcome">WelCome To Leargest Bank In Bangladesh </h4>
-                <h1 id="Sonali">SONALI BANK</h1>
+                <h4 class="text-center">WelCome To Leargest Bank In Bangladesh </h4>
+                <h1 class="text-center"><b>SONALI BANK</b></h1>
                  </div>
                 <div class="submit-area">
                  <h3>login</h3>   
@@ -24,7 +24,55 @@
                 <p> <b>password :</b> </p>
                 <input class="form-control" type="password" name="" id="" placeholder="enter your password">
                 <br>
-                <button class="btn btn-success"  type="submit">submit</button>
+                <button id="submitbtn" class="btn btn-success"  type="submit">submit</button>
+                </div>
+                <div class="welcome-area mt-5">
+                    <h5 class="text-center"> copyright @ 2020-2022 khp.All Rights Reserved </h5>
+                </div>
+            </div>
+            <div id="transaction-area">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="style1 deposit">
+                        <h4>Deposit</h4>
+                        <h2>$<span id="current-deposit">00</span></h2>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="style1 withdraw">
+                        <h4>Withdraw</h4>
+                        <h2>$<span id="current-withdraw">00</span></h2>
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                        <div class="style1 balance">
+                        <h4>Balance</h4>
+                        <h2>$<span id="c-balance">00</span></h2>
+                    </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="style2">
+                            <h1>Deposit</h1>
+                            <br>
+                            <input class="form-control" type="number" name="" id="deposit-amount" placeholder="enter your amount">
+                            <br>
+                            <button id="deposit-butt" class="btn btn-success"  type="submit">submit</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="style2">
+                            <h1>Withdraw</h1>
+                            <br>
+                            <input class="form-control" type="number" name="" id="withdraw-amount" placeholder="enter your amount">
+                            <br>
+                            <button id="withdraw-butt" class="btn btn-success"  type="submit">submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome-area mt-5">
+                    <h5 class="text-center"> copyright @ 2020-2022 khp.All Rights Reserved </h5>
                 </div>
             </div>
         </section>
